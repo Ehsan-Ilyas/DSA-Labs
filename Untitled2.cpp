@@ -42,6 +42,13 @@ public:
         }
         cout << endl;
     }
+    
+    void peek()
+    {
+    	cout<<"The Top element in Queue is:"<<endl;
+    	cout<<queue[front]<<endl;
+    	
+	}
 };
 
 int main()
