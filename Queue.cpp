@@ -27,3 +27,17 @@ void enqueu(int x)
 	
 	
 }
+
+void enqueu(int x)
+{
+	if(rear==size-1)
+	{
+		cout<<"Queue is full";
+		
+	}
+	rear++;
+	arr[rear]=x;
+	
+	
+	
+}
